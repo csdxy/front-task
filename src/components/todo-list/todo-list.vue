@@ -94,9 +94,8 @@ export default {
       }
     },
     clearCompleted(completed) {
-      this.todoData = this.todoData.map(v => {
-        v.completed = completed
-        return v
+      this.todoData = this.todoData.filter(v => {
+        return !v.completed
       })
     },
     deleteData(index) {
