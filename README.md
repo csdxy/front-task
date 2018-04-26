@@ -4,9 +4,25 @@
 
 本项目一共两个页面：登录页和主页。主页包括：用户列表和代办列表。
 
-## demo
+## 项目
 
-* [demo运行地址](https://csdxy.github.io/front-task/#/login)
+本地查看运行结果：  
+```
+git clone https://github.com/csdxy/front-task.git
+cd front-task
+npm install
+// 源码运行结果
+npm run dev
+// 打包后代码运行结果
+npm run build
+node prod.server.js
+```
+线上查看运行结果：  
+* 提示：由于线上协议是https，ajax是http请求，所有不能访问后端数据。因此，在https的线上环境，返回结果是本地数据。想要查看前后端交互，请把项目下载到本地运行查看。
+
+* [线上demo运行地址](https://csdxy.github.io/front-task/#/login)
+
+# 项目介绍
 
 ## 登录页
 
