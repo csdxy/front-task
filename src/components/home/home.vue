@@ -88,9 +88,9 @@ export default {
 .navbar-custom-menu .nav.navbar-nav a {
   color: #fff;
 }
-.nav > li > a:hover,
-.nav > li > a:active,
-.nav > li > a:focus {
+.main-header .navbar-custom-menu .nav > li > a:hover,
+.main-header .navbar-custom-menu .nav > li > a:active,
+.main-header .navbar-custom-menu .nav > li > a:focus {
   background-color: #367fa9;
   color: #fff;
 }
